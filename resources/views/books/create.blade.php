@@ -9,7 +9,7 @@
         </div><!--/card-body-->
         <div class="card-body">
                 <!--Add new Book Form-->
-                {{ Form::open(['route' => 'BooksController@store', 'method' => 'POST','enctype' => 'multipart/form-data']) }}
+                {{ Form::open(['action' => 'BooksController@store', 'method' => 'POST','enctype' => 'multipart/form-data']) }}
                 <div class="form-group">
                         {{ Form::label('title','Book Title')}}
                         {{ Form::text('title','',['class' => 'form-control', 'placeholder' => 'Book Title'])}}

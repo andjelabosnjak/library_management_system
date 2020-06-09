@@ -5,8 +5,8 @@
 ## Instalacija
 
 ```
-$ git clone https://github.com/andjelabosnjak/laravel-library.git
-$ cd laravel-library
+$ git clone https://github.com/andjelabosnjak/library_management_system.git
+$ cd laravel_management_system
 $ cp .env.example .env and fill your database information
 $ composer install
 $ php artisan key:generate
